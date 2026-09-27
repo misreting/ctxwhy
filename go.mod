@@ -1,3 +1,3 @@
-module github.com/__GH_OWNER__/ctxwhy
+module github.com/agentscope-ai-java/ctxwhy
 
 go 1.23

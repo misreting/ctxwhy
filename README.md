@@ -71,7 +71,7 @@ one before it fires. That's the gap this package fills — narrowly.
 ## Install
 
 ```sh
-go get github.com/__GH_OWNER__/ctxwhy
+go get github.com/agentscope-ai-java/ctxwhy
 ```
 
 Go 1.23+. No runtime dependencies.
@@ -82,7 +82,7 @@ Go 1.23+. No runtime dependencies.
 their stdlib counterparts:
 
 ```go
-import "github.com/__GH_OWNER__/ctxwhy"
+import "github.com/agentscope-ai-java/ctxwhy"
 
 outer, cancel := ctxwhy.WithTimeout(ctx, 50*time.Millisecond)   // overall budget
 defer cancel()

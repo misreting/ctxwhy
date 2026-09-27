@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/__GH_OWNER__/ctxwhy"
+	"github.com/agentscope-ai-java/ctxwhy"
 )
 
 func main() {
